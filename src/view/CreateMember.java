@@ -39,9 +39,8 @@ public class CreateMember extends MainMenu {
     public static TextField tf_Id;
 
     Stage createMemberObject;
+
     CreateMemberDB cmdb = new CreateMemberDB();
-
-
 
     public  void createMember(){
 

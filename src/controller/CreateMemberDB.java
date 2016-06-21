@@ -12,7 +12,6 @@ public class CreateMemberDB {
 
     public void createMemberDB() {
 
-        //CreateMember cm = new CreateMember();
 
         try {
 
@@ -50,6 +49,7 @@ public class CreateMemberDB {
             mStmt2.setInt(1, Integer.parseInt(CreateMember.tf_zip_code.getText()));
             mStmt2.setString(2, CreateMember.tf_city.getText());
             mStmt2.executeUpdate();
+
             myConn.close();
 
 
