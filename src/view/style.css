@@ -1,0 +1,33 @@
+#backgroundDefault{
+    -fx-background-color: dimgray;
+}
+
+.button{
+    -fx-background-color: cadetblue;
+    -fx-text-fill: #FFFFFF;
+    -fx-cursor: hand;
+}
+
+.button:hover{
+    -fx-background-color: linear-gradient(darkgray, grey);
+}
+
+.buttonGreen{
+    -fx-background-color: green;
+    -fx-text-fill: white;
+}
+
+.buttonYellow{
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+}
+
+.buttonRed{
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
+
+.buttonPurple{
+    -fx-background-color: purple;
+    -fx-text-fill: white;
+}
